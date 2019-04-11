@@ -1,0 +1,180 @@
+* {
+  /* font-family: "Raleway", sans-serif; */
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  -webkit-filter: blur(0.000001px);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  background: #ccc;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  background: #fff;
+}
+.row {
+  font-size: 0;
+  padding: 15px 50px;
+}
+.border-bottom {
+  border-bottom: 1px solid #eee;
+}
+.col {
+  display: inline-block;
+  vertical-align: top;
+  font-size: initial;
+}
+.display-block {
+  display: block;
+}
+i {
+  color: #28ae71;
+  font-size: 20px;
+}
+.profile-img {
+  width: 180px;
+  text-align: right;
+}
+.profile-img img {
+  width: 120px;
+  border-radius: 100%;
+  /* border: 1px solid #eee; */
+  -webkit-print-color-adjust: exact;
+}
+.profile-info {
+  width: calc(100% - 180px);
+}
+
+.profile-info h1 {
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.profile-info h2 {
+  color: #686868;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.profile-info p {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 23px;
+  margin-top: 10px;
+  color: #000;
+}
+.contact-card {
+  background: #f3f3f3;
+  -webkit-print-color-adjust: exact;
+}
+
+.contact-card > div {
+  margin-right: 25px;
+}
+.contact-card > div i {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+.contact-card > div a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+}
+.sub-heading {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #28ae71;
+}
+
+.skills {
+  padding-top: 15px;
+}
+.skills h3 {
+  -webkit-print-color-adjust: exact;
+  background: #28ae71;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 0px 5px 8px 0;
+}
+.experience-card {
+  margin: 15px 0;
+}
+.mt-0 {
+  margin-top: 10px;
+}
+.job-title {
+  font-size: 18px;
+  font-weight: 500;
+}
+company-info {
+  margin-top: 2px;
+}
+.company-name {
+  display: inline-block;
+  color: #333;
+  font-size: 17px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.duration {
+  margin-top: 8px;
+  padding: 0;
+}
+.duration h5 {
+  color: #333;
+  font-weight: 300;
+  font-size: 15px;
+}
+.float-left {
+  width: 50%;
+  text-align: left;
+}
+.float-right {
+  width: 50%;
+  text-align: right;
+}
+.responsibilities ul {
+  list-style: none;
+  list-style-position: inside;
+}
+.responsibilities ul li {
+  padding-left: 20px;
+  line-height: 20px;
+  margin-bottom: 5px;
+  font-weight: 400;
+  position: relative;
+  font-size: 15px;
+}
+.award .experience-card {
+  position: relative;
+  padding-left: 20px;
+}
+.responsibilities ul li::before,
+.award .experience-card::before {
+  position: absolute;
+  content: "";
+  -webkit-print-color-adjust: exact;
+  background: #28ae71;
+  font-family: "Ionicons";
+  font-size: 15px;
+  left: 0;
+  top: 5px;
+  width: 7px;
+  height: 7px;
+  /* border: 1px solid; */
+}
