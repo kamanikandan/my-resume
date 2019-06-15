@@ -177,7 +177,7 @@ company-info {
 	/* border: 1px solid; */
 }
 .projects {
-	padding: 5px 0 10px 0;
+	padding: 2px 0 10px 0;
 	/* border-bottom: 1px solid #efefef; */
 }
 .projects h4 {
@@ -214,4 +214,7 @@ company-info {
 	font-size: 14px;
 	text-decoration: none;
 	color: #1f8cd4;
+}
+.projects ul a:hover {
+	color: #57606a;
 }
