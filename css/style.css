@@ -174,11 +174,9 @@ company-info {
 	top: 5px;
 	width: 7px;
 	height: 7px;
-	/* border: 1px solid; */
 }
 .projects {
-	padding: 2px 0 10px 0;
-	/* border-bottom: 1px solid #efefef; */
+	padding: 0;
 }
 .projects h4 {
 	font-weight: 400;
