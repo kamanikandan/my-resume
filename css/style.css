@@ -19,7 +19,8 @@ body {
 li,
 p,
 .skills h3 {
-  font-family: 'Andika New Basic', sans-serif;
+  /* font-family: 'Andika New Basic', sans-serif; */
+  font-family: 'Rubik', sans-serif;
 }
 
 .container {
@@ -45,7 +46,7 @@ p,
   display: block;
 }
 i {
-  color: #1965ff;
+  color: #28ae71;
   font-size: 20px;
 }
 
@@ -65,19 +66,20 @@ i {
   position: absolute;
   top: 0;
   right: 0;
-  font-family: 'Andika New Basic', sans-serif;
+  /* font-family: 'Andika New Basic', sans-serif; */
+  font-family: 'Rubik', sans-serif;
   font-size: 14px;
   /* font-weight: 700; */
   padding: 3px 5px;
   text-align: center;
   border-radius: 2px;
-  background-color: #1965ff;
+  background-color: #28ae71;
   color: #eee;
 }
 
 .profile-info h1 {
-  /* color: #111; */
-  color: #1965ff;
+  color: #111;
+  /* color: #28ae71; */
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
@@ -147,7 +149,7 @@ i {
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #1965ff;
+  color: #28ae71;
 }
 .skills-wrapper {
   padding-top: 5px;
@@ -160,7 +162,7 @@ i {
 
 .skills-row h3 {
   -webkit-print-color-adjust: exact;
-  background: #1965ff;
+  background: #28ae71;
   display: inline-block;
   font-size: 12px;
   font-weight: 100;
@@ -175,7 +177,7 @@ i {
 }
 .skills h3 {
   -webkit-print-color-adjust: exact;
-  background: #1965ff;
+  background: #28ae71;
   display: inline-block;
   font-size: 12px;
   font-weight: 100;
@@ -187,30 +189,44 @@ i {
 .experience-card {
   margin: 10px 0 5px;
 }
-/* .mt-0 {
+.experience-row {
+  font-size: 0;
+}
+.experience-row > * {
+  display: inline-block;
+  vertical-align: top;
+  font-size: initial;
+}
+.mt-0 {
   margin-top: 10px;
-} */
+}
 .job-title {
   font-size: 15px;
   font-weight: 500;
   color: #222;
 }
 
+.job-title .college-name {
+  font-size: 13px;
+  color: #444;
+}
+
 .company-name {
   display: inline-block;
   color: #333;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 400;
   text-decoration: none;
 }
 .duration {
   padding: 0;
 }
-.duration h5 {
+.duration, .location {
   color: #555;
   font-weight: 300;
   font-size: 12px;
 }
+
 .float-left {
   width: 50%;
   text-align: left;
@@ -240,14 +256,12 @@ i {
 .award .experience-card::before {
   position: absolute;
   content: '';
-  -webkit-print-color-adjust: exact;
-  background: #1965ff;
-  font-family: 'Ionicons';
-  font-size: 15px;
+  background: #28ae71;
   left: 0;
-  top: 5px;
-  width: 6px;
-  height: 6px;
+  top: 6px;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
 }
 .projects {
   padding: 0;
@@ -285,7 +299,7 @@ i {
 .projects ul a {
   font-size: 14px;
   text-decoration: none;
-  color: #1965ff;
+  color: #28ae71;
 }
 .projects ul a:hover {
   color: #57606a;
