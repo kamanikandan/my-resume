@@ -8,10 +8,10 @@ font-family: 'Poppins', sans-serif;
 	-webkit-font-smoothing: antialiased;
 }
 
-/* @page {
+@page {
 	size: 1150px 1837px; 
 	margin: 0; 
-} */
+}
 
 body {
 	margin: 0;
@@ -21,7 +21,8 @@ body {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	width: 1150px;
+	/* width: 1150px;
+	height: 1837px; */
 	background: #fff;
 }
 .row {
