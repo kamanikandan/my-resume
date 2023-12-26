@@ -9,7 +9,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 @page {
-	size: 1150px 1837px; 
+	size: 1150px 2650px; 
 	margin: 0; 
 }
 
@@ -21,8 +21,8 @@ body {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	/* width: 1150px;
-	height: 1837px; */
+	/* width: 1150px; */
+	/* height: 1837px; */
 	background: #fff;
 }
 .row {
@@ -121,6 +121,17 @@ i {
 .experience-card {
 	margin: 15px 0;
 }
+.company-heading {
+	margin-top: 15px;
+    margin-left: 5px;
+}
+.company-heading span {
+	font-size: 15px;
+	font-weight: 500;
+}
+.mtop-0 {
+	margin: 5px;
+}
 .mt-0 {
 	margin-top: 10px;
 }
@@ -141,6 +152,11 @@ company-info {
 .duration {
 	padding: 0;
 }
+.company-name .duration {
+	color: #333;
+	font-weight: 300;
+	font-size: 14px;
+}
 .duration h5 {
 	color: #333;
 	font-weight: 300;
@@ -154,6 +170,35 @@ company-info {
 	width: 50%;
 	text-align: right;
 }
+
+.experience-timeline {
+	position: relative;
+}
+
+.timeline-item {
+	position: relative;
+	padding-left: 25px;
+}
+
+.timeline-item::before, .timeline-item::after {
+	content: "";
+	position: absolute;
+	left: 0;top: 5px;
+	width: 8px;height: 8px;
+	border-radius: 100%;
+	background-color: #28ae71;
+}
+.timeline-item::after {
+	left: 3px;top: 18px;
+	width: 2px;
+	height: calc(100% - 6px);
+	border-radius: initial;
+}
+
+.line-none::after {
+	display: none;
+}
+
 .responsibilities ul {
 	list-style: none;
 	list-style-position: inside;
@@ -165,6 +210,7 @@ company-info {
 	font-weight: 300;
 	position: relative;
 	font-size: 15px;
+	color: #000;
 }
 .award .experience-card {
 	position: relative;
@@ -175,7 +221,7 @@ company-info {
 	position: absolute;
 	content: "";
 	-webkit-print-color-adjust: exact;
-	background: #28ae71;
+	background: #39453f;
 	font-family: "Ionicons";
 	font-size: 15px;
 	left: 0;
