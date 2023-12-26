@@ -9,7 +9,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 @page {
-	size: 1150px 2650px; 
+	size: 1100px 2459px; 
 	margin: 0; 
 }
 
@@ -21,13 +21,13 @@ body {
 .container {
 	margin: 0 auto;
 	width: 100%;
-	/* width: 1150px; */
-	/* height: 1837px; */
+	/* width: 1100px; */
+	/* height: 2459px; */
 	background: #fff;
 }
 .row {
 	font-size: 0;
-	padding: 15px 50px;
+	padding: 10px 50px;
 }
 .border-bottom {
 	border-bottom: 1px solid #eee;
@@ -49,7 +49,7 @@ i {
 	text-align: right;
 }
 .profile-img img {
-	width: 120px;
+	width: 100px;
 	border-radius: 100%;
 	/* border: 1px solid #eee; */
 	-webkit-print-color-adjust: exact;
@@ -59,7 +59,7 @@ i {
 }
 
 .profile-info h1 {
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 600;
 	text-transform: uppercase;
 }
@@ -68,11 +68,11 @@ i {
 	color: #686868;
 	font-weight: 300;
 	/* text-transform: uppercase; */
-	font-size: 20px;
+	font-size: 18px;
 }
 .profile-info p {
 	font-weight: 300;
-	font-size: 15px;
+	font-size: 13px;
 	text-align: justify;
 	line-height: 23px;
 	margin-top: 10px;
@@ -81,6 +81,7 @@ i {
 .contact-card {
 	background: #f3f3f3;
 	-webkit-print-color-adjust: exact;
+	padding: 8px 50px;
 }
 
 .contact-card > div {
@@ -94,9 +95,10 @@ i {
 	text-decoration: none;
 	color: #000;
 	font-weight: 300;
-	font-size: 13px;
+	font-size: 12px;
 }
 .sub-heading {
+	font-size: 20px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #28ae71;
@@ -111,7 +113,7 @@ i {
 	background: #28ae71;
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 400;
 	color: #fff;
 	border-radius: 5px;
@@ -124,6 +126,7 @@ i {
 .company-heading {
 	margin-top: 15px;
     margin-left: 5px;
+	font-size: 18px;
 }
 .company-heading span {
 	font-size: 15px;
@@ -136,7 +139,7 @@ i {
 	margin-top: 10px;
 }
 .job-title {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: 400;
 }
 company-info {
@@ -145,7 +148,7 @@ company-info {
 .company-name {
 	display: inline-block;
 	color: #333;
-	font-size: 15px;
+	font-size: 14px;
 	font-weight: 400;
 	text-decoration: none;
 }
@@ -155,12 +158,12 @@ company-info {
 .company-name .duration {
 	color: #333;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 13px;
 }
 .duration h5 {
 	color: #333;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 12px;
 }
 .float-left {
 	width: 50%;
@@ -209,7 +212,7 @@ company-info {
 	margin-bottom: 7px;
 	font-weight: 300;
 	position: relative;
-	font-size: 15px;
+	font-size: 13px;
 	color: #000;
 }
 .award .experience-card {
@@ -221,7 +224,7 @@ company-info {
 	position: absolute;
 	content: "";
 	-webkit-print-color-adjust: exact;
-	background: #39453f;
+	background: #444;
 	font-family: "Ionicons";
 	font-size: 15px;
 	left: 0;
