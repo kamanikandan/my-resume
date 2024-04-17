@@ -1,277 +1,284 @@
 * {
-	/* font-family: "Rubik", sans-serif; */
-	/* font-family: 'League Spartan', sans-serif; */
-font-family: 'Poppins', sans-serif;
-	margin: 0;
-	padding: 0;
-	-webkit-filter: blur(0.000001px);
-	-webkit-font-smoothing: antialiased;
+  /* font-family: "Rubik", sans-serif; */
+  /* font-family: 'League Spartan', sans-serif; */
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-filter: blur(0.000001px);
+  -webkit-font-smoothing: antialiased;
 }
 
 @page {
-	size: 1100px 2470px; 
-	margin: 0; 
+  size: 1100px 2506px;
+  margin: 0;
 }
 
 body {
-	margin: 0;
-	background: #ccc;
+  margin: 0;
+  background: #ccc;
 }
 
 .container {
-	margin: 0 auto;
-	width: 100%;
-	/* width: 1100px;
-	height: 2459px; */
-	background: #fff;
+  margin: 0 auto;
+  width: 100%;
+  /* width: 1100px; */
+  /* height: 2459px; */
+  background: #fff;
 }
 .row {
-	font-size: 0;
-	padding: 10px 50px;
+  font-size: 0;
+  padding: 10px 50px;
 }
 .border-bottom {
-	border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 .col {
-	display: inline-block;
-	vertical-align: top;
-	font-size: initial;
+  display: inline-block;
+  vertical-align: top;
+  font-size: initial;
 }
 .display-block {
-	display: block;
+  display: block;
 }
 i {
-	color: #28ae71;
-	font-size: 20px;
+  color: #28ae71;
+  font-size: 20px;
 }
 .profile-img {
-	width: 180px;
-	text-align: right;
+  width: 180px;
+  text-align: right;
 }
 .profile-img img {
-	width: 100px;
-	border-radius: 100%;
-	/* border: 1px solid #eee; */
-	-webkit-print-color-adjust: exact;
+  width: 100px;
+  border-radius: 100%;
+  /* border: 1px solid #eee; */
+  -webkit-print-color-adjust: exact;
 }
 .profile-info {
-	width: calc(100% - 180px);
+  width: calc(100% - 180px);
 }
 
 .profile-info h1 {
-	font-size: 30px;
-	font-weight: 600;
-	text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .profile-info h2 {
-	color: #686868;
-	font-weight: 300;
-	/* text-transform: uppercase; */
-	font-size: 18px;
+  color: #686868;
+  font-weight: 300;
+  /* text-transform: uppercase; */
+  font-size: 18px;
 }
 .profile-info p {
-	font-weight: 300;
-	font-size: 13px;
-	text-align: justify;
-	line-height: 23px;
-	margin-top: 10px;
-	color: #000;
+  font-weight: 300;
+  font-size: 13px;
+  text-align: justify;
+  line-height: 23px;
+  margin-top: 10px;
+  color: #000;
 }
 .contact-card {
-	background: #f3f3f3;
-	-webkit-print-color-adjust: exact;
-	padding: 8px 50px;
+  background: #f3f3f3;
+  -webkit-print-color-adjust: exact;
+  padding: 8px 50px;
 }
 
 .contact-card > div {
-	margin-right: 25px;
+  margin-right: 25px;
 }
 .contact-card > div i {
-	vertical-align: middle;
-	margin-right: 3px;
+  vertical-align: middle;
+  margin-right: 3px;
 }
 .contact-card > div a {
-	text-decoration: none;
-	color: #000;
-	font-weight: 300;
-	font-size: 12px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 300;
+  font-size: 12px;
 }
 .sub-heading {
-	font-size: 20px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #28ae71;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #28ae71;
 }
 
 .skills {
-	padding-top: 15px;
-	text-align: justify;
+  padding-top: 15px;
+  text-align: justify;
 }
 .skills h3 {
-	-webkit-print-color-adjust: exact;
-	background: #28ae71;
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 13px;
-	font-weight: 400;
-	color: #fff;
-	border-radius: 5px;
-	padding: 5px 10px;
-	margin: 0px 5px 8px 0;
+  -webkit-print-color-adjust: exact;
+  background: #28ae71;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 0px 5px 8px 0;
 }
 .experience-card {
-	margin: 15px 0;
+  margin: 15px 0;
 }
 .company-heading {
-	margin-top: 15px;
-    margin-left: 5px;
-	font-size: 17px;
-	color: #333;
+  margin-top: 15px;
+  margin-left: 5px;
+  font-size: 17px;
+  color: #333;
 }
 .company-heading span {
-	font-size: 15px;
-	font-weight: 500;
+  font-size: 15px;
+  font-weight: 500;
 }
 .mtop-0 {
-	margin: 5px;
+  margin: 5px;
 }
 .mt-0 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 .job-title {
-	font-size: 16px;
-	font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
 }
 company-info {
-	margin-top: 2px;
+  margin-top: 2px;
 }
 .company-name {
-	display: inline-block;
-	color: #333;
-	font-size: 14px;
-	font-weight: 400;
-	text-decoration: none;
+  display: inline-block;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
 }
 .duration {
-	padding: 0;
+  padding: 0;
 }
 .company-name .duration {
-	color: #333;
-	font-weight: 300;
-	font-size: 13px;
+  color: #333;
+  font-weight: 300;
+  font-size: 13px;
 }
 .duration h5 {
-	color: #333;
-	font-weight: 300;
-	font-size: 12px;
+  color: #333;
+  font-weight: 300;
+  font-size: 12px;
 }
 .float-left {
-	width: 50%;
-	text-align: left;
+  width: 50%;
+  text-align: left;
 }
 .float-right {
-	width: 50%;
-	text-align: right;
+  width: 50%;
+  text-align: right;
 }
 
 .experience-timeline {
-	position: relative;
+  position: relative;
 }
 
 .timeline-item {
-	position: relative;
-	padding-left: 25px;
+  position: relative;
+  padding-left: 25px;
 }
 
-.timeline-item::before, .timeline-item::after {
-	content: "";
-	position: absolute;
-	left: 0;top: 5px;
-	width: 8px;height: 8px;
-	border-radius: 100%;
-	background-color: #28ae71;
+.timeline-item::before,
+.timeline-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #28ae71;
 }
 .timeline-item::after {
-	left: 3px;top: 18px;
-	width: 2px;
-	height: calc(100% - 6px);
-	border-radius: initial;
+  left: 3px;
+  top: 18px;
+  width: 2px;
+  height: calc(100% - 6px);
+  border-radius: initial;
 }
 
 .line-none::after {
-	display: none;
+  display: none;
 }
 
 .responsibilities ul {
-	list-style: none;
-	list-style-position: inside;
+  list-style: none;
+  list-style-position: inside;
 }
 .responsibilities ul li {
-	padding-left: 20px;
-	line-height: 20px;
-	margin-bottom: 7px;
-	font-weight: 300;
-	position: relative;
-	font-size: 13px;
-	color: #000;
+  padding-left: 20px;
+  line-height: 20px;
+  margin-bottom: 7px;
+  font-weight: 300;
+  position: relative;
+  font-size: 13px;
+  color: #000;
 }
 .award .experience-card {
-	position: relative;
-	padding-left: 20px;
+  position: relative;
+  padding-left: 20px;
 }
 .responsibilities ul li::before,
 .award .experience-card::before {
-	position: absolute;
-	content: "";
-	-webkit-print-color-adjust: exact;
-	background: #444;
-	font-family: "Ionicons";
-	font-size: 15px;
-	left: 0;
-	top: 5px;
-	width: 8px;
-	height: 8px;
-	border-radius: 100%;
+  position: absolute;
+  content: "";
+  -webkit-print-color-adjust: exact;
+  background: #444;
+  font-family: "Ionicons";
+  font-size: 15px;
+  left: 0;
+  top: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+}
+.award .experience-card::before {
+  top: 8px;
 }
 .projects {
-	padding: 0;
+  padding: 0;
 }
 .projects h4 {
-	font-weight: 400;
+  font-weight: 400;
 }
 .projects ul {
-	list-style: none;
-	padding-left: 5px;
+  list-style: none;
+  padding-left: 5px;
 }
 .projects ul li {
-	display: inline-block;
-	margin-right: 5px;
-	padding: 0 10px 0 0px;
-	position: relative;
-	text-align: center;
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0 10px 0 0px;
+  position: relative;
+  text-align: center;
 }
 .projects ul li:first-child {
-	padding-left: 0;
+  padding-left: 0;
 }
 .projects ul li::after {
-	content: "";
-	position: absolute;
-	z-index: 1;
-	right: 0px;
-	bottom: 3px;
-	width: 1px;
-	height: 10px;
-	background: #333;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  bottom: 3px;
+  width: 1px;
+  height: 10px;
+  background: #333;
 }
 .projects ul li:last-child::after {
-	background: none;
+  background: none;
 }
 .projects ul a {
-	font-size: 14px;
-	text-decoration: none;
-	color: #1f8cd4;
+  font-size: 14px;
+  text-decoration: none;
+  color: #1f8cd4;
 }
 .projects ul a:hover {
-	color: #57606a;
+  color: #57606a;
 }
